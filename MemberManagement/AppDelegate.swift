@@ -14,7 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    var id : String!    // ! 혹은 ? 는 나중에 값을 저장하고자 할 떄 선언
+    var memoList = [MemoVO]()
+    
+    var id : String!    // ! 혹은 ? 는 나중에 값을 저장하고자 할 때 선언
     var nickname : String!
     var image : String!
 
