@@ -109,7 +109,7 @@ class MemoListVC: UITableViewController {
             self.tableView.deleteRows(at: [indexPath], with: .left)
         }
     }
-
+    
     
     /*
      override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
